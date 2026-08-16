@@ -1,0 +1,13 @@
+# The original project, kept locally as a record. Never committed: it contains
+# the hardcoded ArangoDB password and API key documented in the README.
+_original/
+
+# Local-only working notes (see workflow.md Phase 7)
+observe.md
+CLAUDE.md
+
+.env
+__pycache__/
+*.py[cod]
+.venv/
+venv/

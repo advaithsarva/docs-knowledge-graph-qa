@@ -1,0 +1,49 @@
+[
+  {"question": "how do I install networkx", "kind": "lookup", "algorithm": ""},
+  {"question": "what does pagerank compute", "kind": "lookup", "algorithm": ""},
+  {"question": "explain bipartite graphs", "kind": "lookup", "algorithm": ""},
+  {"question": "what is a MultiDiGraph", "kind": "lookup", "algorithm": ""},
+  {"question": "does cugraph support louvain", "kind": "lookup", "algorithm": ""},
+  {"question": "how do I add edges to a graph", "kind": "lookup", "algorithm": ""},
+  {"question": "what python versions are supported", "kind": "lookup", "algorithm": ""},
+  {"question": "tell me about graph traversal", "kind": "lookup", "algorithm": ""},
+  {"question": "which page explains betweenness centrality as an algorithm", "kind": "lookup", "algorithm": ""},
+  {"question": "what are the requirements for GPU acceleration", "kind": "lookup", "algorithm": ""},
+  {"question": "show me documentation on shortest path algorithms", "kind": "lookup", "algorithm": ""},
+  {"question": "how do I convert a networkx graph to cugraph", "kind": "lookup", "algorithm": ""},
+  {"question": "what is a DiGraph", "kind": "lookup", "algorithm": ""},
+  {"question": "describe the backend system", "kind": "lookup", "algorithm": ""},
+  {"question": "what does add_edges_from do", "kind": "lookup", "algorithm": ""},
+
+  {"question": "which page is most important", "kind": "graph", "algorithm": "pagerank"},
+  {"question": "find the most influential page in the docs", "kind": "graph", "algorithm": "pagerank"},
+  {"question": "rank the pages by influence", "kind": "graph", "algorithm": "pagerank"},
+  {"question": "run pagerank on the docs graph", "kind": "graph", "algorithm": "pagerank"},
+  {"question": "which documentation page is most central", "kind": "graph", "algorithm": "pagerank"},
+  {"question": "find the most influential page using centrality measures", "kind": "graph", "algorithm": "pagerank"},
+
+  {"question": "which page is linked to the most", "kind": "graph", "algorithm": "in_degree_centrality"},
+  {"question": "what page has the most incoming links", "kind": "graph", "algorithm": "in_degree_centrality"},
+  {"question": "which pages are most referenced", "kind": "graph", "algorithm": "in_degree_centrality"},
+  {"question": "show the most cited pages", "kind": "graph", "algorithm": "in_degree_centrality"},
+
+  {"question": "which page links to the most others", "kind": "graph", "algorithm": "out_degree_centrality"},
+  {"question": "what page has the most outgoing links", "kind": "graph", "algorithm": "out_degree_centrality"},
+
+  {"question": "which page is the biggest bridge between sections", "kind": "graph", "algorithm": "betweenness_centrality"},
+  {"question": "compute betweenness for the docs", "kind": "graph", "algorithm": "betweenness_centrality"},
+  {"question": "which page acts as a connector", "kind": "graph", "algorithm": "betweenness_centrality"},
+
+  {"question": "are there separate clusters in the docs", "kind": "graph", "algorithm": "connected_components"},
+  {"question": "how many components does the graph have", "kind": "graph", "algorithm": "connected_components"},
+  {"question": "find communities in the documentation", "kind": "graph", "algorithm": "connected_components"},
+  {"question": "is the graph disconnected", "kind": "graph", "algorithm": "connected_components"},
+  {"question": "does the corpus split into groups", "kind": "graph", "algorithm": "connected_components"},
+
+  {"question": "shortest path from Install to DiGraph", "kind": "graph", "algorithm": "shortest_path"},
+  {"question": "what is the path from Install to Backends", "kind": "graph", "algorithm": "shortest_path"},
+
+  {"question": "how many pages are in the corpus", "kind": "graph", "algorithm": "summary"},
+  {"question": "how big is the graph", "kind": "graph", "algorithm": "summary"},
+  {"question": "give me a summary of the corpus", "kind": "graph", "algorithm": "summary"}
+]

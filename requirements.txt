@@ -1,0 +1,9 @@
+# Three runtime dependencies. The original listed ten, of which
+# `arango` was the wrong package name (the driver is `python-arango`),
+# `cugraph` is not installable from PyPI at all, and `deepseek` was unused.
+networkx>=3.2
+beautifulsoup4>=4.12
+flask>=3.0
+
+# Optional: only needed for `ask --llm` / `eval --llm`.
+# openai>=1.0
