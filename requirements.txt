@@ -4,11 +4,12 @@
 networkx>=3.2
 beautifulsoup4>=4.12
 flask>=3.0
-# networkx does not declare numpy, but nx.pagerank imports it -- and pagerank
-# is one of the seven allowlisted algorithms the router can execute. Missing it
-# only showed up in CI, because a clean install is the one place nothing else
-# has already pulled numpy in.
+# networkx declares neither of these, but nx.pagerank imports both -- and
+# pagerank is one of the seven allowlisted algorithms the router can execute.
+# Missing them only showed up in CI, because a clean install is the one place
+# nothing else has already pulled numpy and scipy in.
 numpy>=1.26
+scipy>=1.11
 
 # Optional: only needed for `ask --llm` / `eval --llm`.
 # openai>=1.0
